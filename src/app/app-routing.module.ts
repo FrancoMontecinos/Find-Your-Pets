@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [ //Cargo los Modulos por carga perezosa 
+const routes: Routes = [ //Cargo los Modulos por carga perezosa, defino mis rutas 
 
   {
     path: 'auth',

@@ -6,7 +6,7 @@ import { RegisterComponent } from './pages/register/register.component';
 
 const routes: Routes = [
 
-  {
+  { 
     path: '',
     component: MainComponent,
     children: [
@@ -14,7 +14,6 @@ const routes: Routes = [
       { path: 'register', component: RegisterComponent },
       { path: '**', redirectTo: 'login'},
     ]
-
 
   }
 ];
