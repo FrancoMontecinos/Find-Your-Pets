@@ -1,0 +1,75 @@
+.title-h4 {
+  font-size: 23px;
+  color: #1d6ab8;
+  font-weight: 400;
+}
+.title-h3 {
+  font-size: 21px;
+  color: #1d6ab8;
+  font-weight: 400;
+}
+.title-h2 {
+  font-size: 15px;
+  color: #1d6ab8;
+  font-weight: 400;
+}
+
+.btn[class*="btn-save"] {
+  margin-left: 0 !important;
+  background-color: #0d47a1;
+  color: #ffffff;
+}
+
+.btn[class*="btn-"] {
+  margin-left: 1rem;
+}
+
+/deep/ aw-wizard-navigation-bar.horizontal.large-empty-symbols ul.steps-indicator li.editing .step-indicator{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #808080 !important;
+  color: #808080 !important;
+}
+
+/deep/ aw-wizard-navigation-bar.horizontal.large-empty-symbols ul.steps-indicator li.current .fas{
+  color: white !important;
+}
+
+/deep/ aw-wizard-navigation-bar.horizontal.large-empty-symbols ul.steps-indicator li.done .step-indicator{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #009DA0 !important;
+  color: #009DA0 !important;
+}
+
+/deep/ aw-wizard-navigation-bar ul.steps-indicator li.done a .label{
+  border-color: #009DA0 !important;
+  color: #009DA0 !important;
+}
+
+/deep/ aw-wizard-navigation-bar.horizontal.large-empty-symbols ul.steps-indicator li.current .step-indicator{
+  border-width: 2px;
+  border-style: solid;
+  border-color: #00c0c4 !important;
+  color: #00c0c4 !important;
+  background-color: #00c0c4;
+}
+
+.btn-blue {
+  color: #fff !important;
+  background-color: #005cdc;
+  border-color: #0063fd;
+}
+
+.btn-blue:hover {
+  color: #fff !important;
+  background-color: #006bff;
+  border-color: #0063fd;
+}
+
+.btn-blue:focus, .btn-blue.focus {
+  color: #fff !important;
+  background-color: #005cdc;
+  border-color: #0063fd;
+  box-shadow: 0 0 0 0.2rem rgba(0, 107, 255, 0.5);
+}

@@ -1,0 +1,29 @@
+<main class="container-fluid">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header p-0" align="center">
+        <h4 class="title-h4">Solicitud de Certificado</h4>
+      </div>
+      <div class="card-body">
+        <aw-wizard #first [navBarLayout]="'large-empty-symbols'">
+          <aw-wizard-step stepTitle="Mascota">
+            <ng-template awWizardStepSymbol>
+              <i class="fas fa-user"></i>
+            </ng-template>
+            <main class="container-fluid">
+             STEP 1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            </main>
+          </aw-wizard-step>
+          <aw-wizard-step stepTitle="Publicación" [navigationSymbol]="{ symbol: '2' }" >
+            <ng-template awWizardStepSymbol>
+              <i class="fas fa-home"></i>
+            </ng-template>
+            <main class="container-fluid">
+              STEP 2
+            </main>
+          </aw-wizard-step>
+        </aw-wizard>
+      </div>
+    </div>
+  </div>
+</main>
